@@ -8,7 +8,7 @@ C# Add-In: Extracts IFC rooms and creates new rooms in Revit based on the extrac
 Python Script in Dynamo: Mirrors the functionality of the C# add-in using Python.
 
 Software: 
-Autodesk Revit
-Dynamo
-Visual Studio
-Visual Studio Code
+Autodesk Revit,
+Dynamo,
+Visual Studio,
+Visual Studio Code,
