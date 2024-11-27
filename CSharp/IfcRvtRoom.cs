@@ -187,6 +187,13 @@ namespace IfcRoomToRvtRoom
                             }
                         }
                     }
+                    // Check if room elements is empty.
+                    if (roomElements.Count == 0)
+                    {
+                        TaskDialog.Show("Room Elements", "Room elements were not found in the Generic Model Category.\n\nModify the code to try another category.");
+                        return Result.Failed;
+                    }
+
                     //#####################################################
 
                     List<Element> newRooms = new List<Element>();
